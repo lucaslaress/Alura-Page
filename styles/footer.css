@@ -1,0 +1,29 @@
+.footer{
+    display: flex;
+    flex-direction: column;
+    padding: 95px 8.3vw 95px 8.3vw;
+    align-items: center;
+    gap: 24px;
+}
+
+.footer_to-paste-options{
+    display: inline;
+    text-align: center;
+}
+
+.footer_to-paste-options_option{
+    text-decoration: none;
+    color: var(--color-white);
+    margin-right: 25px;
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.footer_to-paste-options_informations{
+    text-align: center;
+    color: var(--color-white);
+    font-family: 'inter',sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}

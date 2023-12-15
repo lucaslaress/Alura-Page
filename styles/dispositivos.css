@@ -1,0 +1,30 @@
+.dispositivos{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 95px 6vw 95px 6vw;
+}
+
+.dispositivos_title{
+    font-family: 'inter', sans-serif;
+    color: var(--color-white);
+    font-size: 3rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 1166px){
+    .dispositivos_to-past-images_image{
+        width: 28vw;
+    }
+}
+
+@media(max-width: 600px){
+    .dispositivos_to-past-images_image{
+        width: auto;
+    }
+}

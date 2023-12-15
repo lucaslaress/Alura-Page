@@ -1,0 +1,56 @@
+.baixe{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 69px;
+    padding: 95px 11.45vw 95px 11.45vw;
+}
+
+.baixe_image{
+    width: 498px;
+}
+
+.baixe_to-paste-title-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 12px;
+}
+
+.baixe_to-paste-title-txt_title{
+    color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+.baixe_to-paste-title-txt_txt{
+    color: var(--color-white);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+@media(max-width: 934px){
+    .baixe_image{
+        width: 200px;
+    }
+}
+
+@media(max-width: 600px){
+    .baixe{
+        flex-direction: column;
+        gap: 40px;
+    }
+
+    .baixe_image{
+        width: 80vw;
+        max-width: 400px;
+    }
+
+    .baixe_to-paste-title-txt{
+        text-align: center;
+    }
+}

@@ -1,0 +1,20 @@
+@import url("/reset.css");
+@import url("/styles/combo-mais.css");
+@import url("/styles/do-seu-jeito.css");
+@import url("/styles/seus-cursos.css");
+@import url("/styles/baixe.css");
+@import url("/styles/dispositivos.css");
+@import url("/styles/footer.css");
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Poppins:wght@300;400;500;700&display=swap');
+
+:root{
+    --color-white: #FFFFFF;
+    --color-clear-blue: #167BF7;
+    --bacground-color: #00030C;
+}
+
+body{
+    background-color: var(--bacground-color);
+    overflow-x: hidden;
+}

@@ -1,0 +1,67 @@
+.seus-cursos{
+    width: 100vw;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 95px 11.45vw 95px 11.45vw;
+    gap: 69px;
+}
+
+.seus-cursos_image{
+    width: 496px;
+}
+
+.seus-cursos_to-paste-txt-link{
+    display: flex;
+    flex-direction: column;
+    gap: 16px
+}
+
+.seus-cursos_to-paste-txt-link_link{
+    text-decoration: none;
+    width: 163px;
+    height: 56px;
+    background-color: var(--color-clear-blue);
+    color: var(--color-white);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+}
+
+.seus-cursos_to-paste-txt-link_txt{
+    font-family: 'inter', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--color-white);
+}
+
+@media(max-width: 934px){
+    .seus-cursos_image{
+        width: 200px;
+    }
+}
+
+@media(max-width: 600px){
+    .seus-cursos{
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .seus-cursos_image{
+        width: 80vw;
+        max-width: 400px;
+    }
+
+    .seus-cursos_to-paste-txt-link{
+        align-items: center;
+    }
+
+    .seus-cursos_to-paste-txt-link_txt{
+        text-align: center;
+    }
+}
